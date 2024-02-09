@@ -44,3 +44,63 @@ To ensure the reliability of the application, unit tests have been included. Run
 ```
 npm test
 ```
+
+# Customer Data Generation Script
+
+## Generating and Exporting Customer Data to JSON
+
+This script demonstrates how to generate sample customer data with transactions and export it to a JSON file using Node.js and the `fs` module.
+
+## Key Features:
+
+* Generates realistic customer data with:
+    * Customer IDs
+    * Customer names
+    * Multiple transactions per customer
+    * Random transaction dates within a specified range
+    * Random transaction amounts within a specified range
+* Validates input arguments for data generation
+* Writes the generated data to a JSON file
+
+## Prerequisites:
+
+* Node.js installed on your system
+
+## Usage:
+
+1. **Navigate to the script's directory** in your terminal.
+2. **Run the script with command-line arguments:**
+
+```bash
+node script.js <dateRangeStart> <dateRangeEnd> <amountRangeMin> <amountRangeMax> <numCustomers> <numTransactionsPerCustomer>
+```
+Example code:
+```
+node script.js 2023-01-01 2024-01-01 100 500 5 10
+```
+
+
+## Arguments:
+
+* `dateRangeStart`: Starting date for transaction dates (YYYY-MM-DD)
+* `dateRangeEnd`: Ending date for transaction dates (YYYY-MM-DD)
+* `amountRangeMin`: Minimum transaction amount (numeric)
+* `amountRangeMax`: Maximum transaction amount (numeric)
+* `numCustomers`: Number of customers to generate
+* `numTransactionsPerCustomer`: Number of transactions per customer
+
+## Output:
+
+* Creates a JSON file named `sampleData.json` in the `./src/api` directory with the generated customer data.
+
+## File System Interaction:
+
+* The script uses the `fs` module to interact with the file system.
+* It imports the `fs` module with `const fs = require("fs");`.
+* It uses the `fs.writeFile` function to write the JSON data to the specified file.
+
+## Additional Notes:
+
+* Error handling is included for file writing operations.
+* The generated JSON data is indented for readability.
+* Consider customizing date and amount ranges, as well as output filename, to suit your specific needs.
