@@ -20,11 +20,11 @@ You need to have Node.js installed on your computer to run this project. You can
 
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/<your-username>/<your-repository>.git
+git clone https://github.com/codewithPoppy/retailer-rewards-program.git
 ```
 Navigate to the project directory:
 ```
-cd <your-repository>
+cd retailer-rewards-program
 ```
 Install the necessary packages:
 ```
