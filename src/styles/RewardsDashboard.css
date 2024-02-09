@@ -1,0 +1,17 @@
+.dashboard {
+  margin-top: 20px;
+}
+
+.customer {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.customer:last-child {
+  border-bottom: none;
+}
+
+.customer h2 {
+  color: #666;
+}

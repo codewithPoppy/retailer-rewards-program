@@ -1,0 +1,16 @@
+.noDataContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.noDataMessage {
+  color: #666;
+  font-size: 18px;
+  font-weight: 500;
+}

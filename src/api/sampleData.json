@@ -1,0 +1,44 @@
+[
+  {
+    "customerId": "C001",
+    "customerName": "Customer 1",
+    "transactions": [
+      {
+        "date": "2/18/2024",
+        "amount": 100
+      },
+      {
+        "date": "1/2/2024",
+        "amount": 140
+      }
+    ]
+  },
+  {
+    "customerId": "C002",
+    "customerName": "Customer 2",
+    "transactions": [
+      {
+        "date": "3/31/2024",
+        "amount": 150
+      },
+      {
+        "date": "3/13/2024",
+        "amount": 90
+      }
+    ]
+  },
+  {
+    "customerId": "C003",
+    "customerName": "Customer 3",
+    "transactions": [
+      {
+        "date": "3/25/2024",
+        "amount": 110
+      },
+      {
+        "date": "3/30/2024",
+        "amount": 180
+      }
+    ]
+  }
+]
